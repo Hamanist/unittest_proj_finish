@@ -26,4 +26,3 @@ class TestArrs(unittest.TestCase):
 
     def test_slice_normalized_start(self):
         self.assertEqual(arrs.my_slice([1, 2, 3, 4], -3, 3), [2, 3])
-
